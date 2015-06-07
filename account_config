@@ -1,0 +1,12 @@
+#Log
+LogFile			/opt/freesvr/audit/account/log/freesvr_account.log
+WriteLocalLog		yes
+
+#Mysql
+MysqlAddress		127.0.0.1
+MysqlUsername		freesvr
+MysqlPassword		freesvr
+MysqlDatabase		audit_sec
+
+Timeout			60
+RetryTimes		5
